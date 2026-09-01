@@ -1,0 +1,26 @@
+/* Element selector */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* ID selector */
+#add-expense {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+/* Class selector */
+.expenses {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+/* Element selector */
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px;
+}
