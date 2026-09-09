@@ -1,0 +1,118 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(209, 175, 175);">
+     <img 
+    src="logo.png" 
+    alt="Budget Tracker logo" 
+    width="120">
+
+    <h1>My Budget Tracker</h1>
+
+    <p>TRACK YOUR INCOME AND EXPENSES IN ONE PLACE.</p>
+
+    <!-- Add Expense Section -->
+    <section class="add-expense">
+        <h2>Add Expense</h2>
+
+        <form>
+            <label for="expense-name">Expense Name:</label>
+            <input type="text" id="expense-name" placeholder="Enter expense name">
+
+            <label for="expense-amount">Amount:</label>
+            <input type="number" id="expense-amount" placeholder="Enter amount">
+
+            <label for="expense-category">Category:</label>
+            <select id="expense-category">
+                <option value="food">Food</option>
+                <option value="transport">Transport</option>
+                <option value="rent">Rent</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="button">Add Expense</button>
+        </form>
+    </section>
+
+    <!-- Your Expenses Section -->
+    <section class="expenses">
+        <h2>Your Expenses</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunch</td>
+                    <td>$10</td>
+                    <td>Food</td>
+                    <td>2026-09-01</td>
+                </tr>
+
+                <tr>
+                    <td>Bus Fare</td>
+                    <td>$5</td>
+                    <td>Transport</td>
+                    <td>2026-09-02</td>
+                </tr>
+
+                <tr>
+                    <td>House Rent</td>
+                    <td>$200</td>
+                    <td>Rent</td>
+                    <td>2026-09-03</td>
+                </tr>
+
+                <tr>
+                    <td>Movie</td>
+                    <td>$15</td>
+                    <td>Entertainment</td>
+                    <td>2026-09-04</td>
+                </tr>
+
+                <tr>
+                    <td>Phone Credit</td>
+                    <td>$8</td>
+                    <td>Other</td>
+                    <td>2026-09-05</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- How to Use Section -->
+    <details>
+        <summary>How to use this tracker</summary>
+        <p>Enter the expense name, amount, and category using the form above. The Add Expense button is not functional yet.</p>
+    </details>
+
+    <!-- Multimedia Section -->
+    <section class="multimedia">
+        <h2>Budgeting Tips</h2>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="My video.mp4"
+            title="Budgeting tips video"
+            frameborder="0">
+        </iframe>
+    </section>
+
+</body>
+</html>
